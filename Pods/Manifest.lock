@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.6.2)
+  - Down (0.11.0)
+  - MarkdownKit (1.7.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - Down
+  - MarkdownKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Down
+    - MarkdownKit
+
+SPEC CHECKSUMS:
+  Alamofire: d368e1ff8a298e6dde360e35a3e68e6c610e7204
+  Down: b6ba1bc985c9d2f4e15e3b293d2207766fa12612
+  MarkdownKit: 0b15195c63cf3e39387949c4bdeccde0055e252a
+
+PODFILE CHECKSUM: 178c9883b0a68a678f489e4adbff8662503ae25e
+
+COCOAPODS: 1.10.2
