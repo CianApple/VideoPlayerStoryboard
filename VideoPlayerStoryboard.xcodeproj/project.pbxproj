@@ -20,6 +20,7 @@
 		889DE8D028A1E9B1007E5EFC /* VideoPlayerStoryboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889DE8CF28A1E9B1007E5EFC /* VideoPlayerStoryboardUITestsLaunchTests.swift */; };
 		889DE8DD28A1E9EC007E5EFC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 889DE8DC28A1E9EC007E5EFC /* README.md */; };
 		889DE8DF28A1E9F4007E5EFC /* wireframe.png in Resources */ = {isa = PBXBuildFile; fileRef = 889DE8DE28A1E9F4007E5EFC /* wireframe.png */; };
+		88BAAB8F28A352E200946BD6 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BAAB8E28A352E200946BD6 /* UIView+Extensions.swift */; };
 		E5A53A834E7E39326B1569F3 /* Pods_VideoPlayerStoryboard_VideoPlayerStoryboardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C56A757FCEA8D91B443E6C97 /* Pods_VideoPlayerStoryboard_VideoPlayerStoryboardUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,6 +62,7 @@
 		889DE8CF28A1E9B1007E5EFC /* VideoPlayerStoryboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerStoryboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		889DE8DC28A1E9EC007E5EFC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		889DE8DE28A1E9F4007E5EFC /* wireframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wireframe.png; sourceTree = "<group>"; };
+		88BAAB8E28A352E200946BD6 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 		985B9A9298B47BAF396F71A7 /* Pods_VideoPlayerStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayerStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C56A757FCEA8D91B443E6C97 /* Pods_VideoPlayerStoryboard_VideoPlayerStoryboardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoPlayerStoryboard_VideoPlayerStoryboardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72B8628C41BD738FE71A77B /* Pods-VideoPlayerStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoPlayerStoryboard.release.xcconfig"; path = "Target Support Files/Pods-VideoPlayerStoryboard/Pods-VideoPlayerStoryboard.release.xcconfig"; sourceTree = "<group>"; };
@@ -105,7 +107,6 @@
 				028DC9DF86C113F796DEFF19 /* Pods-VideoPlayerStoryboardTests.debug.xcconfig */,
 				05B33E837CDAACFA74A57BE6 /* Pods-VideoPlayerStoryboardTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -137,6 +138,7 @@
 				889DE8AC28A1E9AF007E5EFC /* AppDelegate.swift */,
 				889DE8AE28A1E9AF007E5EFC /* SceneDelegate.swift */,
 				889DE8B028A1E9AF007E5EFC /* ViewController.swift */,
+				88BAAB8E28A352E200946BD6 /* UIView+Extensions.swift */,
 				889DE8B228A1E9AF007E5EFC /* Main.storyboard */,
 				889DE8B528A1E9B1007E5EFC /* Assets.xcassets */,
 				889DE8B728A1E9B1007E5EFC /* LaunchScreen.storyboard */,
@@ -417,6 +419,7 @@
 			files = (
 				889DE8B128A1E9AF007E5EFC /* ViewController.swift in Sources */,
 				889DE8AD28A1E9AF007E5EFC /* AppDelegate.swift in Sources */,
+				88BAAB8F28A352E200946BD6 /* UIView+Extensions.swift in Sources */,
 				889DE8AF28A1E9AF007E5EFC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
